@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://biologicalsovereigntyprotocol.com">
-    <img src="https://biologicalsovereigntyprotocol.com/logo.svg" alt="BSP Logo" width="200" height="200" style="border-radius: 50%; padding: 10px; background-color: #f7f9fc;">
+    <img src="assets/bsp-logo-light.png" alt="BSP Logo" width="200" height="200" style="border-radius: 50%; padding: 10px; background-color: #f7f9fc;">
   </a>
   <br />
   <br />
