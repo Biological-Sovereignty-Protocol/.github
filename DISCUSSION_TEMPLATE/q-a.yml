@@ -17,9 +17,10 @@ body:
       description: What area is your question about? Select all that apply.
       options:
         - label: Protocol Specification
-        - label: SDK Usage
-        - label: Server Implementation
-        - label: General Implementation
+        - label: SDK Usage (@bsp/sdk)
+        - label: SmartWeave Contracts (bsp-registry)
+        - label: Relayer API (bsp-registry-api)
+        - label: BEO / IEO Architecture
         - label: Documentation
         - label: Other
 
