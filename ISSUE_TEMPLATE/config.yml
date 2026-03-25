@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: BSP Documentation
+    url: https://biologicalsovereigntyprotocol.com/developers
+    about: Full protocol documentation, quickstarts, and API reference.
+  - name: Protocol Specification
+    url: https://github.com/Biological-Sovereignty-Protocol/bsp-spec
+    about: Read the BSP specification before proposing changes.
+  - name: GitHub Discussions
+    url: https://github.com/orgs/Biological-Sovereignty-Protocol/discussions
+    about: General questions, ideas, and community discussion — open here first.
+  - name: Ambrósio Institute
+    url: https://ambrosioinstitute.org
+    about: Governance body and steward of the BSP protocol.
