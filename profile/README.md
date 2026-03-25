@@ -68,27 +68,31 @@ BSP does not analyze data. BSP does not make medical decisions. BSP is the trans
 ## Architecture
 
 ```
-┌───────────────────────────────────────────────────────────────────┐
-│                      BSP PROTOCOL STACK                           │
-├───────────────────────────────────────────────────────────────────┤
-│                                                                   │
-│  ┌─────────────────────────────────────────────────────────────┐  │
-│  │  INTELLIGENCE LAYER  (AVA · AI engines · health platforms)  │  │
-│  └────────────────────────────┬────────────────────────────────┘  │
-│                               │  reads / writes via BSP           │
-│  ┌────────────────────────────▼────────────────────────────────┐  │
-│  │  BSP-EXCHANGE        Request · Response · ConsentToken      │  │
-│  ├─────────────────────────────────────────────────────────────┤  │
-│  │  BSP-DATA            BioRecord · Biomarker Taxonomy (L1–L4) │  │
-│  ├─────────────────────────────────────────────────────────────┤  │
-│  │  BSP-IDENTITY        BEO · IEO · Key Management             │  │
-│  └────────────────────────────┬────────────────────────────────┘  │
-│                               │                                   │
-│  ┌────────────────────────────▼────────────────────────────────┐  │
-│  │  PERMANENCE LAYER    Arweave · Immutable records             │  │
-│  └─────────────────────────────────────────────────────────────┘  │
-│                                                                   │
-└───────────────────────────────────────────────────────────────────┘
+  ┌─────────────────────────────────────────────────────────────┐
+  │         INTELLIGENCE LAYER  (above the protocol)            │
+  │     AVA · SVA · third-party algorithms · health apps        │
+  │          not defined by BSP — consumes BSP data             │
+  └────────────────────────────┬────────────────────────────────┘
+                               │  reads / writes via BSP
+┌──────────────────────────────▼──────────────────────────────────┐
+│                      BSP PROTOCOL STACK                          │
+├──────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  LAYER 3 — BSP-EXCHANGE                                          │
+│  How data moves between systems                                  │
+│  Request · Response · ConsentToken · AccessControl               │
+│                                                                  │
+│  LAYER 2 — BSP-DATA                                              │
+│  What data contains                                              │
+│  BioRecord · Biomarker Taxonomy (L1 Core → L4 Device)           │
+│                                                                  │
+│  LAYER 1 — BSP-IDENTITY                                          │
+│  Who holds the data                                              │
+│  BEO (individual) · IEO (institution) · .bsp domains            │
+│                                                                  │
+└──────────────────────────────────────────────────────────────────┘
+  Stored on Arweave — permanent, decentralized, immutable
+  BEORegistry · IEORegistry · DomainRegistry · AccessControl
 ```
 
 ---
@@ -206,7 +210,7 @@ Then ask Claude: *"What do my last blood test results say about my longevity mar
 | [**bsp-sdk-python**](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-python) | Official Python SDK — `pip install bsp-sdk` | `v1.0.0` |
 | [**bsp-mcp**](https://github.com/Biological-Sovereignty-Protocol/bsp-mcp) | MCP server — connect Claude, ChatGPT, and other AI systems natively to BSP data | `v0.1` |
 | [**bsp-id-web**](https://github.com/Biological-Sovereignty-Protocol/bsp-id-web) | Reference web application for BSP identity creation, consent management, and dashboard | `v0.1` |
-| [**bsp-docs-repo**](https://github.com/Biological-Sovereignty-Protocol/bsp-docs-repo) | Complete documentation — quickstarts, implementation guides, API reference, whitepaper | Live |
+| [**bsp-docs**](https://github.com/Biological-Sovereignty-Protocol/bsp-docs) | Complete documentation — quickstarts, implementation guides, API reference, whitepaper | Live |
 
 ---
 
