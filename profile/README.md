@@ -22,7 +22,7 @@ BSP is a neutral, open-source standard that enables any wearable, laboratory, he
 
 <br />
 
-[**Specification**](https://github.com/Biological-Sovereignty-Protocol/bsp-spec) · [**Documentation**](https://biologicalsovereigntyprotocol.com) · [**TypeScript SDK**](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-typescript) · [**Python SDK**](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-python) · [**AI / MCP**](https://github.com/Biological-Sovereignty-Protocol/bsp-mcp)
+[**Specification**](https://github.com/Biological-Sovereignty-Protocol/bsp-spec) · [**Documentation**](https://biologicalsovereigntyprotocol.com) · [**TypeScript SDK**](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-typescript) · [**Python SDK**](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-python) · [**CLI**](https://github.com/Biological-Sovereignty-Protocol/bsp-cli) · [**AI / MCP**](https://github.com/Biological-Sovereignty-Protocol/bsp-mcp)
 
 </div>
 
@@ -181,6 +181,15 @@ result = ExchangeClient(ieo_id="my-lab.bsp").submit(record, token)
 print(result["arweave_tx"])  # Permanent record
 ```
 
+### CLI
+
+```bash
+npx @bsp/cli create andre.bsp           # Create biological identity
+npx @bsp/cli consent grant <beo> <ieo> --intents SUBMIT_RECORD --days 365
+npx @bsp/cli export <beo> --token <tok> --format FHIR_R4
+npx @bsp/cli destroy <beo> --confirm    # LGPD/GDPR erasure
+```
+
 ### AI Integration — Claude via MCP
 
 Add BSP to your Claude Desktop `claude_desktop_config.json`:
@@ -208,7 +217,8 @@ Then ask Claude: *"What do my last blood test results say about my longevity mar
 | [**bsp-spec**](https://github.com/Biological-Sovereignty-Protocol/bsp-spec) | Protocol specification — BEO, IEO, BioRecord formats, biomarker taxonomy, governance model | `v0.2 Draft` |
 | [**bsp-sdk-typescript**](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-typescript) | Official TypeScript/JavaScript SDK — `npm install @bsp/sdk` | `v1.0.0` |
 | [**bsp-sdk-python**](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-python) | Official Python SDK — `pip install bsp-sdk` | `v1.0.0` |
-| [**bsp-mcp**](https://github.com/Biological-Sovereignty-Protocol/bsp-mcp) | MCP server — connect Claude, ChatGPT, and other AI systems natively to BSP data | `v0.1` |
+| [**bsp-cli**](https://github.com/Biological-Sovereignty-Protocol/bsp-cli) | Official CLI — manage BEOs, IEOs, consent, and health data from the terminal | `v1.0.0` |
+| [**bsp-mcp**](https://github.com/Biological-Sovereignty-Protocol/bsp-mcp) | MCP server — connect Claude, ChatGPT, and other AI systems natively to BSP data | `v1.0.0` |
 | [**bsp-id-web**](https://github.com/Biological-Sovereignty-Protocol/bsp-id-web) | Reference web application for BSP identity creation, consent management, and dashboard | `v0.1` |
 | [**bsp-docs**](https://github.com/Biological-Sovereignty-Protocol/bsp-docs) | Complete documentation — quickstarts, implementation guides, API reference, whitepaper | Live |
 
