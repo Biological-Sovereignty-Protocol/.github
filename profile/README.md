@@ -15,7 +15,7 @@ BSP is a neutral, open-source standard that enables any wearable, laboratory, he
 [![Protocol](https://img.shields.io/badge/BSP-v0.2_Specification-0066CC?style=flat-square)](https://github.com/Biological-Sovereignty-Protocol/bsp-spec)
 [![License Spec](https://img.shields.io/badge/Spec-CC_BY_4.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 [![License SDK](https://img.shields.io/badge/SDK-Apache_2.0-blue?style=flat-square)](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-typescript/blob/main/LICENSE)
-[![npm](https://img.shields.io/npm/v/@bsp/sdk?style=flat-square&label=%40bsp%2Fsdk)](https://www.npmjs.com/package/@bsp/sdk)
+[![npm](https://img.shields.io/npm/v/bsp-sdk?style=flat-square&label=%40bsp%2Fsdk)](https://www.npmjs.com/package/bsp-sdk)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-typescript)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-python)
 [![Built on Arweave](https://img.shields.io/badge/Permanent_Storage-Arweave-222222?style=flat-square)](https://arweave.org)

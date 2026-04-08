@@ -45,8 +45,8 @@ The landing page shown when anyone visits [github.com/Biological-Sovereignty-Pro
 While this repository holds the standards, the actual protocol implementation is distributed across several key repositories:
 
 ### 1. Core Implementations (This GitHub Org)
-- 📦 **[@bsp/sdk](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-typescript)**: The official TypeScript SDK.
-- 📦 **[@bsp/python-sdk](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-python)**: The official Python SDK for data science and AI.
+- 📦 **[bsp-sdk](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-typescript)**: The official TypeScript SDK.
+- 📦 **[bsp-sdk-python](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-python)**: The official Python SDK for data science and AI.
 - ⚡ **[bsp-mcp](https://github.com/Biological-Sovereignty-Protocol/bsp-mcp)**: Model Context Protocol (MCP) server for native AI Assistant integration.
 
 ### 2. Protocol Contracts (Ambrosio Institute Org)

@@ -13,7 +13,7 @@ Whether you are fixing a typo in the documentation, building a new SDK feature, 
 Before diving in, please familiarize yourself with the core pillars of the BSP ecosystem:
 
 1. **[bsp-registry](https://github.com/Ambrosio-Institute/bsp-registry)**: The immutable SmartWeave contracts (BEORegistry, IEORegistry, AccessControl) stewarded by the Ambrosio Institute.
-2. **[@bsp/sdk](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-typescript)**: The TypeScript standard library for interacting with the contracts.
+2. **[bsp-sdk](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-typescript)**: The TypeScript standard library for interacting with the contracts.
 3. **[bsp-registry-api](https://github.com/Ambrosio-Institute/bsp-registry-api)**: The protocol relayer for gas abstraction and off-chain Guardian notifications.
 4. **[bsp-mcp](https://github.com/Biological-Sovereignty-Protocol/bsp-mcp)**: The Model Context Protocol integration bridging AI with sovereign biological data.
 
