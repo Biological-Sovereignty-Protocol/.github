@@ -13,7 +13,7 @@ A clear and concise description of what the bug is.
 - [ ] `bsp-sdk` (TypeScript SDK)
 - [ ] `bsp-mcp` (Model Context Protocol Integration)
 - [ ] `bsp-registry-api` (Relayer API)
-- [ ] `bsp-registry` (SmartWeave Contracts - Ambrosio Institute)
+- [ ] `bsp-contracts` (SmartWeave Contracts - Ambrosio Institute)
 - [ ] `website` (Documentation / Portal)
 
 **To Reproduce**

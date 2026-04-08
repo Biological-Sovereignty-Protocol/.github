@@ -21,7 +21,7 @@ Before diving in, please familiarize yourself with the core pillars of the BSP e
 
 ### 1. Proposing a Change (Issues)
 If you have an idea for a massive feature or a structural change to the SmartWeave contracts, please **open an issue first**. 
-For the core contracts (`bsp-registry`), structural changes usually require a formal Proposal to the on-chain Governance contract. Discussing it in an issue first saves everyone time.
+For the core contracts (`bsp-contracts`), structural changes usually require a formal Proposal to the on-chain Governance contract. Discussing it in an issue first saves everyone time.
 
 ### 2. Submitting Pull Requests
 1. **Fork** the repository you want to contribute to.
