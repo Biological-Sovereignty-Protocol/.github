@@ -10,7 +10,7 @@ assignees: ""
 A clear and concise description of what the problem is. Ex. I'm building a longevity platform and I need a new Intent type for accessing Apple Health data seamlessly via ConsentTokens.
 
 **Which part of the BSP Ecosystem needs this feature?**
-- [ ] `@bsp/sdk` (TypeScript SDK)
+- [ ] `bsp-sdk` (TypeScript SDK)
 - [ ] `bsp-mcp` (Model Context Protocol Integration)
 - [ ] `bsp-registry-api` (Relayer API)
 - [ ] `bsp-registry` (SmartWeave Contracts - Ambrosio Institute)

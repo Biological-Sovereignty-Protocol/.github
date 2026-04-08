@@ -10,7 +10,7 @@ assignees: ""
 A clear and concise description of what the bug is.
 
 **Which part of the BSP Ecosystem is affected?**
-- [ ] `@bsp/sdk` (TypeScript SDK)
+- [ ] `bsp-sdk` (TypeScript SDK)
 - [ ] `bsp-mcp` (Model Context Protocol Integration)
 - [ ] `bsp-registry-api` (Relayer API)
 - [ ] `bsp-registry` (SmartWeave Contracts - Ambrosio Institute)
