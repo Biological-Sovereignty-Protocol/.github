@@ -7,7 +7,7 @@ Because BSP deals with highly sensitive human biological data, clinical records,
 ## 🛡️ Scope of Security
 
 We are particularly interested in vulnerabilities related to:
-* **SmartWeave Contract flaws** that could bypass ConsentToken verification.
+* **Move module flaws** that could bypass ConsentToken verification.
 * **Cryptographic edge cases** modifying Ed25519 signature validation.
 * **Social Recovery (Shamir Secret Sharing) leaks**, specifically in the `bsp-sdk` or the `bsp-registry-api` guardian flow.
 * **On-chain State Manipulation** allowing unauthorized modification of Biological Entity Objects (BEO).

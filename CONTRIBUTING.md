@@ -4,7 +4,7 @@ First off, thank you for considering contributing to the Biological Sovereignty 
 
 ## 🧬 Our Philosophy
 
-The Biological Sovereignty Protocol is built on the belief that **individuals must have absolute cryptographic ownership of their clinical and biological history.** We build on Arweave (permanent storage) and SmartWeave (decentralized computation) to guarantee this.
+The Biological Sovereignty Protocol is built on the belief that **individuals must have absolute cryptographic ownership of their clinical and biological history.** We build on Arweave (permanent storage) and AO (hyper-parallel compute) to guarantee this.
 
 Whether you are fixing a typo in the documentation, building a new SDK feature, or proposing an entirely new Institutional Intent standard, your contributions matter.
 
@@ -12,7 +12,7 @@ Whether you are fixing a typo in the documentation, building a new SDK feature, 
 
 Before diving in, please familiarize yourself with the core pillars of the BSP ecosystem:
 
-1. **[bsp-registry](https://github.com/Ambrosio-Institute/bsp-registry)**: The immutable SmartWeave contracts (BEORegistry, IEORegistry, AccessControl) stewarded by the Ambrosio Institute.
+1. **[bsp-registry](https://github.com/Ambrosio-Institute/bsp-registry)**: The permanent AO processes (BEORegistry, IEORegistry, AccessControl) stewarded by the Ambrosio Institute.
 2. **[bsp-sdk](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-typescript)**: The TypeScript standard library for interacting with the contracts.
 3. **[bsp-registry-api](https://github.com/Ambrosio-Institute/bsp-registry-api)**: The protocol relayer for gas abstraction and off-chain Guardian notifications.
 4. **[bsp-mcp](https://github.com/Biological-Sovereignty-Protocol/bsp-mcp)**: The Model Context Protocol integration bridging AI with sovereign biological data.
@@ -20,8 +20,8 @@ Before diving in, please familiarize yourself with the core pillars of the BSP e
 ## 🤝 How to Contribute
 
 ### 1. Proposing a Change (Issues)
-If you have an idea for a massive feature or a structural change to the SmartWeave contracts, please **open an issue first**. 
-For the core contracts (`bsp-contracts`), structural changes usually require a formal Proposal to the on-chain Governance contract. Discussing it in an issue first saves everyone time.
+If you have an idea for a massive feature or a structural change to the AO processes, please **open an issue first**. 
+For the core processes (`bsp-contracts`), structural changes usually require a formal Proposal to the on-chain Governance process. Discussing it in an issue first saves everyone time.
 
 ### 2. Submitting Pull Requests
 1. **Fork** the repository you want to contribute to.
@@ -32,7 +32,7 @@ For the core contracts (`bsp-contracts`), structural changes usually require a f
 
 ### 3. Development Guidelines
 * **TypeScript:** We use strict TypeScript across the board (SDK, API, MCP). Ensure `npm run build` and `npm run lint` pass.
-* **SmartWeave Contracts:** Contracts are written in vanilla JavaScript (ES2020) for Warp compatibility. Tests must use `warp-contracts-testing`.
+* **Move modules:** On-chain logic lives in `bsp-contracts` as Move modules deployed to Aptos. Unit tests use the native `aptos move test` framework.
 * **Tests:** If you add a feature, add a test. If you fix a bug, add a test that prevents the bug from recurring.
 
 ## 🚨 Security First

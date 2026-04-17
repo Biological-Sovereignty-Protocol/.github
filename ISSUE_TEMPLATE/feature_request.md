@@ -13,14 +13,14 @@ A clear and concise description of what the problem is. Ex. I'm building a longe
 - [ ] `bsp-sdk` (TypeScript SDK)
 - [ ] `bsp-mcp` (Model Context Protocol Integration)
 - [ ] `bsp-registry-api` (Relayer API)
-- [ ] `bsp-contracts` (SmartWeave Contracts - Ambrosio Institute)
+- [ ] `bsp-contracts` (Move modules on Aptos - Ambrosio Institute)
 - [ ] Specification (Core Protocol Level)
 
 **Describe the solution you'd like**
-A clear and concise description of what you want to happen. For example, proposing a new intent `APPLE_HEALTH_READ` in the `AccessControl` SmartWeave contract.
+A clear and concise description of what you want to happen. For example, proposing a new intent `APPLE_HEALTH_READ` in the `AccessControl` AO process.
 
 **Describe alternatives you've considered**
 A clear and concise description of any alternative solutions or features you've considered (e.g., using the generic `GENOMIC_DATA` intent instead).
 
 **Additional context**
-Add any other context or screenshots about the feature request here. If this requires an update to the core SmartWeave contracts, it might require a formal Governance Proposal.
+Add any other context or screenshots about the feature request here. If this requires an update to the core AO processes, it might require a formal Governance Proposal.

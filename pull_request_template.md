@@ -8,12 +8,12 @@ Please include a summary of the change and which issue is fixed. Please also inc
 
 - [ ] Bug fix (non-breaking change which fixes an issue in the SDK/API)
 - [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (SmartWeave contract architecture change, or SDK method signature change)
+- [ ] Breaking change (AO process architecture change, or SDK method signature change)
 - [ ] Documentation update (readme, specification, API reference)
 
 ## How Has This Been Tested?
 
-Please describe the tests that you ran to verify your changes. If you are modifying SmartWeave interactions, please verify `warp-contracts-testing` passes in the local suite.
+Please describe the tests that you ran to verify your changes. If you are modifying AO process interactions, please verify the AO testing suite passes locally.
 
 - [ ] Unit Tests
 - [ ] Local Arweave Testnet Integration
@@ -23,7 +23,7 @@ Please describe the tests that you ran to verify your changes. If you are modify
 
 - [ ] My code follows the strict TypeScript guidelines of this project
 - [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas (`arweave` wallet logic, `warp` interactions)
+- [ ] I have commented my code, particularly in hard-to-understand areas (`arweave` wallet logic, `ao` interactions)
 - [ ] I have made corresponding changes to the Documentation (`biologicalsovereigntyprotocol.com`)
 - [ ] My changes generate no new warnings or lint errors
 - [ ] I have added tests that prove my fix is effective or that my feature works

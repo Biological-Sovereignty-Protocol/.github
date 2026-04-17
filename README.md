@@ -18,7 +18,7 @@ This repository (`.github`) is a special repository utilized by GitHub to store 
 
 To empower individuals with absolute cryptographic ownership over their biological data, enabling a decentralized, zero-trust foundation for the future of longevity research and precision medicine.
 
-By unifying health data through **Biological Entity Objects (BEOs)** and **SmartWeave Contracts**, we replace fragmented institutional silos with a single, sovereign source of truth.
+By unifying health data through **Biological Entity Objects (BEOs)** and **Move smart contracts on Aptos**, we replace fragmented institutional silos with a single, sovereign source of truth.
 
 ---
 
@@ -28,8 +28,8 @@ The files in this repository dictate how the BSP community operates, collaborate
 
 | Document | Purpose |
 | :--- | :--- |
-| 🛡️ [**SECURITY.md**](./SECURITY.md) | **Critical:** Outline of our vulnerability disclosure policy. Covers SmartWeave exploits, Shamir Secret leaks, and Ed25519 signature validation. |
-| 🤝 [**CONTRIBUTING.md**](./CONTRIBUTING.md) | The architectural philosophy and step-by-step guide for contributing to our SmartWeave contracts, SDKs, and APIs. |
+| 🛡️ [**SECURITY.md**](./SECURITY.md) | **Critical:** Outline of our vulnerability disclosure policy. Covers AO process exploits, Shamir Secret leaks, and Ed25519 signature validation. |
+| 🤝 [**CONTRIBUTING.md**](./CONTRIBUTING.md) | The architectural philosophy and step-by-step guide for contributing to our AO processes, SDKs, and APIs. |
 | ⚖️ [**CODE_OF_CONDUCT.md**](./CODE_OF_CONDUCT.md) | The standard rules of interaction to ensure a safe, welcoming, and professional environment for researchers and developers. |
 | 📝 [**Issue Templates**](./ISSUE_TEMPLATE/) | Standardized templates ensuring contributors map bugs and feature requests to specific components in our stack. |
 | 🗣️ [**Discussion Templates**](./DISCUSSION_TEMPLATE/) | Categorized forums for debating Protocol Specification, SDK Usage, and BEO/IEO Architecture. |
@@ -49,9 +49,9 @@ While this repository holds the standards, the actual protocol implementation is
 - 📦 **[bsp-sdk-python](https://github.com/Biological-Sovereignty-Protocol/bsp-sdk-python)**: The official Python SDK for data science and AI.
 - ⚡ **[bsp-mcp](https://github.com/Biological-Sovereignty-Protocol/bsp-mcp)**: Model Context Protocol (MCP) server for native AI Assistant integration.
 
-### 2. Protocol Contracts (Ambrosio Institute Org)
-*The immutable SmartWeave infrastructure is stewarded by the [Ambrosio Institute](https://github.com/Ambrosio-Institute).*
-- 📜 **[bsp-registry](https://github.com/Ambrosio-Institute/bsp-registry)**: The SmartWeave contracts (`BEORegistry`, `IEORegistry`, `AccessControl`).
+### 2. Protocol Processes (Ambrosio Institute Org)
+*The permanent AO infrastructure is stewarded by the [Ambrosio Institute](https://github.com/Ambrosio-Institute).*
+- 📜 **[bsp-registry](https://github.com/Ambrosio-Institute/bsp-registry)**: The AO processes (`BEORegistry`, `IEORegistry`, `AccessControl`).
 - 🚂 **[bsp-registry-api](https://github.com/Ambrosio-Institute/bsp-registry-api)**: The official protocol relayer service for gas abstraction.
 
 ---
@@ -69,6 +69,6 @@ If you want to propose a change to the community standards (for example, updatin
 
 <div align="center">
   <img src="https://img.shields.io/badge/Arweave-000000?style=for-the-badge&logo=arweave&logoColor=white" />
-  <img src="https://img.shields.io/badge/SmartWeave-111111?style=for-the-badge&logo=smartcontracts&logoColor=white" />
+  <img src="https://img.shields.io/badge/AO-111111?style=for-the-badge&logo=smartcontracts&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
 </div>

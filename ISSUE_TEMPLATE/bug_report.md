@@ -13,7 +13,7 @@ A clear and concise description of what the bug is.
 - [ ] `bsp-sdk` (TypeScript SDK)
 - [ ] `bsp-mcp` (Model Context Protocol Integration)
 - [ ] `bsp-registry-api` (Relayer API)
-- [ ] `bsp-contracts` (SmartWeave Contracts - Ambrosio Institute)
+- [ ] `bsp-contracts` (Move modules on Aptos - Ambrosio Institute)
 - [ ] `website` (Documentation / Portal)
 
 **To Reproduce**
@@ -29,7 +29,7 @@ A clear and concise description of what you expected to happen (e.g., The transa
  - OS: [e.g. macOS, Windows, Linux]
  - Node Version: [e.g. 18.x]
  - Arweave Network: [Mainnet / Testnet]
- - Warp SDK Version: [e.g. 1.4.x]
+ - aoconnect SDK Version: [e.g. 0.x.x]
 
 **Additional context**
 Add any other context about the problem here (screenshots, Arweave transaction IDs if relevant).

@@ -18,7 +18,7 @@ body:
       options:
         - label: Protocol Specification
         - label: SDK Usage (@bsp/sdk)
-        - label: SmartWeave Contracts (bsp-registry)
+        - label: AO Processes (bsp-registry)
         - label: Relayer API (bsp-registry-api)
         - label: BEO / IEO Architecture
         - label: Documentation
